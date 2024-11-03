@@ -1,0 +1,39 @@
+.navbar {
+    display: grid;
+    background-color: $color-gray-dark;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    
+     .navbar__content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        min-width: 900px;
+        margin: 0 auto;
+
+        @media (max-width: 768px) {
+             min-width: 100%;
+        }
+        .navbar__img {
+            margin-left: 10px;
+         }
+
+         .navbar__links {
+            list-style: none;
+            justify-self: end;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            .navbar__links__item a {
+                color: $color-white;
+                text-decoration: none;
+                padding: 10px;
+                display: block;
+            }
+        }
+
+    }
+ 
+}

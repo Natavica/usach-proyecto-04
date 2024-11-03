@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 03</title>
+    <link rel="stylesheet" href="assets/scss/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+    <div class="body__content">
+
+        <nav class="navbar">
+            <div class="navbar__content">
+                <a class="navbar__img" href="index.html">
+                    <img src="assets/img/star-wars.png" alt="Logo" style="height: 50px;">
+                </a>
+                <ul class="navbar__links">
+                    <li class="navbar__links__item"><a href="#inicio">Inicio</a></li>
+                    <li class="navbar__links__item"><a href="#servicios"">Servicios</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h1 class="body__title">Esto corresponde al título de la Tarea 03</h1>
+
+        <section class="section section--inicio" id="inicio">
+            <h2 class="section__title">Inicio</h2>
+            <p class="section__subtitle">Contenido de la sección Inicio.</p>
+
+            <div class="slider__container">
+                <div class="slider__content">
+                    <div class="slider__item fade">
+                        <img src="https://via.placeholder.com/800x400?text=Imagen" alt="Imagen 1">
+                    </div>
+                    <div class="slider__item fade">
+                        <img src="https://via.placeholder.com/800x400?text=Imagen" alt="Imagen 2">
+                    </div>
+                    <div class="slider__item fade">
+                        <img src="https://via.placeholder.com/800x400?text=Imagen" alt="Imagen 3">
+                    </div>
+                    <div class="slider__item fade">
+                        <img src="https://via.placeholder.com/800x400?text=Imagen" alt="Imagen 4">
+                    </div>
+                </div>
+        
+                <a class="slider__control slider__control--prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="slider__control slider__control--next" onclick="plusSlides(1)">&#10095;</a>
+        
+                <div class="slider__dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section--servicios" id="servicios">
+            <h2 class="section__title">Servicios</h2>
+            <p class="section__subtitle">Contenido de la sección Servicios.</p>
+
+            <div class="columns__container">
+                <div class="column">
+                    <div class="column__icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3 class="column__title">Subtítulo 1</h3>
+                    <p class="column__text">Este es el párrafo de la columna 1, con información relevante.</p>
+                </div>
+                <div class="column">
+                    <div class="column__icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="column__title">Subtítulo 2</h3>
+                    <p class="column__text">Este es el párrafo de la columna 2, con información relevante.</p>
+                </div>
+                <div class="column">
+                    <div class="column__icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="column__title">Subtítulo 3</h3>
+                    <p class="column__text">Este es el párrafo de la columna 3, con información relevante.</p>
+                </div>
+                <div class="column">
+                    <div class="column__icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="column__title">Subtítulo 4</h3>
+                    <p class="column__text">Este es el párrafo de la columna 4, con información relevante.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+
+        <div class="footer__container">
+
+            <div class="footer__section footer__section--about">
+                <h3 class="footer__section__title">Sobre Nosotros</h3>
+                <p>Texto simulado. Lorem ipsum dolor sit, adipisicing elit. Totam, eaque nemo odit accusantium laudantium. Provident, quas ducimus.</p>
+            </div>
+
+            <div class="footer__section footer__section--links">
+                <h3 class="footer__section__title">Enlaces Rápidos</h3>
+                <ul class="footer__section__links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__section footer__section--social">
+                <h3 class="footer__section__title">Síguenos</h3>
+                <div class="social__icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="footer__bottom">
+            <p>&copy; 2024 Tarea 03. Todos los derechos reservados.</p>
+        </div>
+
+    </footer>
+
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
