@@ -1,0 +1,17 @@
+# Proyecto USACH
+
+Este proyecto está desarrollado para brindar una interfaz web básica que puede servir como punto de partida para otras aplicaciones web o como un proyecto de demostración.
+
+## Estructura del Proyecto
+
+- `index.html`: Este es el archivo principal de la interfaz de usuario y el contenido inicial de la aplicación web. 
+- `.gitignore`: Archivo de configuración de Git que especifica qué archivos y carpetas deben ignorarse en el control de versiones.
+- `.git/`: Carpeta que contiene todos los archivos de configuración e historial de versiones del proyecto, manejados mediante Git.
+
+## Requisitos Previos
+
+Para contribuir o ejecutar este proyecto, necesitarás:
+
+- **Navegador web**: Para visualizar el archivo `index.html`.
+- **Git** (opcional): Para gestionar el historial de versiones y contribuir al proyecto de forma organizada.
+
