@@ -1,4 +1,4 @@
-# Proyecto USACH
+# Proyecto USACH para practicar uso de Git y GitHub
 
 Este proyecto está desarrollado para brindar una interfaz web básica que puede servir como punto de partida para otras aplicaciones web o como un proyecto de demostración.
 
