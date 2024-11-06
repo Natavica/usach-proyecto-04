@@ -20,7 +20,19 @@
   }
 }
 .navbar .navbar__content .navbar__img {
+  display: flex;
+  align-items: center;
   margin-left: 10px;
+}
+
+.character-image-left {
+  margin-right: 10px; 
+  height: 50px;
+}
+
+.character-image {
+  margin-left: 10px; 
+  height: 50px;
 }
 .navbar .navbar__content .navbar__links {
   list-style: none;
